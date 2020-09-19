@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f46722"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/romp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/rompw" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/romp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/"
+        android:text="Romp!"
+        android:textColor="#ffffff"
+        android:textSize="70dp" />
+</RelativeLayout>

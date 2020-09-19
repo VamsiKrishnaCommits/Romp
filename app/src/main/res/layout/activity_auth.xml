@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/auth">
+
+    <ImageView
+        android:layout_width="396dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rompe" />
+
+    <EditText
+        android:id="@+id/edit0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="15dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="15dp"
+        android:hint="password"
+        android:inputType="textPassword" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000080"
+        android:layout_margin="15dp"
+android:id="@+id/forgot"
+        android:text="Forgot Password?"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:background="@drawable/button"
+        android:layout_margin="15dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Login!" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:paddingLeft="50dp"
+        android:textColor="#ffffff"
+        android:paddingRight="50dp"
+        android:layout_width="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        android:text="Create a new account!" />
+</LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:id="@+id/proauth">
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressb"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="Logging you in..."
+            android:id="@+id/loadingmen"/>
+    </LinearLayout>
+</RelativeLayout>

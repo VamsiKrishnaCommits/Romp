@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Outlets"
+        android:textSize="30dp"
+
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="10dp"
+        android:id="@+id/text"/>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/cant"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/history"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="IIITG Hostel Canteen"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/availability"
+                android:layout_marginTop="10dp"
+                android:textColor="#F46722"
+                android:text="Status: fetching..."/>
+        </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/food"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:src="@drawable/history"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-black"
+
+                    android:text="The Food Truck"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/availability2"
+                    android:textColor="#F46722"
+                    android:layout_marginTop="10dp"
+                    android:text="Status: fetching..."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F46722"
+                    android:layout_marginTop="10dp"
+                    android:text="Home Delivery Available"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/ranj"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:background="@drawable/ripple"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:src="@drawable/history"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Ranjeetha"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/availability3"
+                    android:textColor="#F46722"
+                    android:layout_marginTop="10dp"
+                    android:text="Status: fetching..."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#F46722"
+                    android:layout_marginTop="10dp"
+                    android:text="Home Delivery Available"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/cantacad"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/history"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="match_parent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-black"
+                    android:text="The Grocery Store"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/availability4"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#F46722"
+                    android:text="Status: fetching..."/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/pop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:background="@color/colorAccent"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/rup" />
+
+            <TextView
+                android:id="@+id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/viewcart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="View Cart"
+                android:textColor="#ffffff " />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+</ScrollView>

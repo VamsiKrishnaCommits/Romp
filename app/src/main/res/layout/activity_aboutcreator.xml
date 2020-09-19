@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/vamsi" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:text="Hi! I am Vamsi.I built this app so it doesn't make sense to write this part in third person.To be honest I did write an enhancing bio at first but after i gave more thought i decided to do it differently.It is going to be long one so please bear with me.\n\n
+
+Anyway,I am a student at Indian Institute Of Information Technology,Guwahati.I eat ,sleep and love technology.I love music and am a pianist.
+Realizing what an app can do literally blew my mind and started learning development. Landed in an internship at an e-commerce company called nudle where I designed the seller side application. It was too much fun .Having fun is contagious,even my friends started with development and we named ourselves Classic Valley where we try to build things that makes your life easier.\n\n
+
+I decided to solve the problem our college canteen had(literally most of the canteens in colleges of india),wait times and the congestion.I built an interface for students to order their food from their room with a single tap and get notified when their food is ready,in that way they dont have to occupy chairs in the canteen while waiting.I built it and felt something was wrong.\n\n
+
+I observed a problem of a greater magnitude .Fake and simulated versions of payment applications like pay-tm ,gpay are prevailant in the websites.When the student crowd is huge ,it is literally impossible for the canteen person to check if the payment is genuinely done , it is just an animation work to simulate g-pay,paytm and fool that guy saying payment is done.So,I built a system where the canteen person can receive the order only when the payment is done.This app could be of a great help for someone owning a chain of canteens or when the owner of the canteen is not the person taking the orders,that way you don't have to worry about the payments .It is quite obvious when you go through the app.\n\n
+I tried to expand it further by including hotels which would accept order through phone call.The prices are not modified like swiggy ,zomato does ,ensuring all my friends here would enjoy the food at an affordable price.Now you can order from the outlets mentioned with a single tap and get updates about your orders.\n\n
+So the application you see is a culmination of all of that you read above.Hope you have fun using this as much as I had building this."/>
+
+
+</LinearLayout>
+</ScrollView>

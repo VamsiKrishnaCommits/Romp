@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:orientation="vertical"
+android:id="@+id/rel"
+android:background="#ffffff"
+    android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android" >
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:id="@+id/recyclerviewouter"
+    android:layoutAnimation="@anim/anima"
+    android:layout_height="wrap_content"
+
+    />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:id="@+id/pro">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gif"
+        android:id="@+id/progressb"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:text="Loading History..."
+        android:id="@+id/loadingmen"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:id="@+id/nohis"
+        android:visibility="invisible"
+
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="200dp"
+            android:src="@drawable/clock"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="50dp"
+    android:textColor="#000000"
+    android:text="No History!"/>
+    </LinearLayout>
+
+</RelativeLayout>

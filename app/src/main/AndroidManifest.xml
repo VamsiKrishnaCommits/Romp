@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.romp">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/rompplay"
+        android:label="Romp!"
+        android:roundIcon="@mipmap/rompplay_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main9Activity"></activity>
+        <activity android:name=".JustBeforeMainOther" />
+        <activity android:name=".ui.Main8Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.aboutcreator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Myorders"
+            android:label="My Orders"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.whatothersordered"
+            android:label="what others ordered"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.JustBeforeMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Main7Activity"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Auth"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
